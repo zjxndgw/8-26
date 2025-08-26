@@ -1,1 +1,17 @@
-
+{
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "description": "Your project description",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "npm run build"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {},
+  "author": "Your Name",
+  "license": "ISC"
+}
