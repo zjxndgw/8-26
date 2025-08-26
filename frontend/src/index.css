@@ -1,0 +1,18 @@
+/* 设置二次元的背景 */
+body {
+  background: url('https://path_to_your_anime_background_image.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+/* 主页按钮特效 */
+button {
+  background: #ff69b4; /* 粉色按钮 */
+  border-radius: 25px;
+  padding: 10px 30px;
+  transition: 0.3s ease;
+}
+button:hover {
+  background: #ff1493; /* 鼠标悬停颜色 */
+}
